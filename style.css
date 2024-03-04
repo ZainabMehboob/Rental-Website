@@ -1,0 +1,370 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(5, 0, 0, 0.3)),url(felix-rostig-UmV2wr-Vbq8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.Logo{
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 30px;
+    font-size: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.register-button{
+    background-color: rgb(187, 183, 183);
+    color:rgb(7, 0, 0);
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.container{
+    padding: 0% 7%;
+}
+ .header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: center;
+    padding: 22%;
+ }
+
+ .Search-bar{
+    background: rgba(218, 143, 143, 0.315);
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+ }
+
+ .Search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(253, 250, 250);
+ }
+
+ .Search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+    
+ }
+
+ .Search-bar form button{
+    background: rgb(192, 58, 58);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer; 
+ }
+
+.Search-bar form button img{
+ width: 15px;
+ margin-top: 7px;
+}
+
+.Location-Input{
+    flex: 1;
+    color: rgb(255, 254, 254);
+}
+ 
+.Search-bar form label{
+    font-weight: 600;
+}
+/*---------------------------------first portion-----------------------*/
+
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+} 
+
+
+.Exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+
+}
+
+.Exclusives div img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.Exclusives div{
+    position: relative;
+}
+
+.Exclusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: whitesmoke;
+
+}
+ 
+/*-----------------------second portion--------------------*/
+
+.Trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;  
+}
+
+.Trending div img{
+    width: 100%;
+    border-radius: 10px;
+} 
+
+.Trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/*---------------------thrid portion----------------*/
+
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right,rgb(77, 34, 34),transparent),url(images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: whitesmoke;
+}
+
+.cta h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-button{
+    background-color: rgb(187, 22, 22);
+    color: whitesmoke;
+    padding: 12px 30px ;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+/*----------------------------------fourth portion----------------------------------*/
+
+
+.Stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px; 
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+  
+.Stories div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Stories div{
+    position: relative;
+    text-align: center;
+}
+
+.Stories p{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.start-button{
+    text-decoration: none;
+    background:rgb(126, 39, 39) ;
+    color: whitesmoke;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+
+    /*----------------------------fifth-------------------------------*/
+}
+
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color:rgb(34, 33, 33);
+    font-size: 17px;
+}
+
+.about-msg h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/*---------------------------sixth-------------------------------------*/
+
+.Footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+
+.Footer a{
+    text-decoration: none;
+    color: rgb(160, 157, 157);
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.Footer hr{
+    background: rgb(156, 146, 146);
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.Footer p{
+    padding-bottom: 15px;
+}
+ 
+.active{
+    position: relative;
+}
+
+.active::after{
+    content: '';
+    background: whitesmoke;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
+
+/*---------------------------------------------media-queries-----------------------------*/
+nav.fa-bars{
+    display: none;
+}
+@media only screen and (max-width:700px){
+
+    .Logo{
+        position: fixed;
+        left: 7%;
+        top: 4%;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: black;
+        text-align: right;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav .nav-links li{
+        margin: 10px 0;
+        display: block;
+    }
+    .register-button{
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+    nav.fa-bars{
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        color: whitesmoke;
+        font-size: 28px;
+    }
+        
+    .active::after{
+        left:-40px;
+        transform: translate(0,50%);
+        bottom: 50%;
+        }
+    .hidemenu{
+        max-height: 300px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
